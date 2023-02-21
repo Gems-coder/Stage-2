@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+     /* border: solid red;  */
+   }
+
+.header-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#header-img{
+    margin: 50px auto;
+}
+#header-words{
+    font-size: 57px;
+    text-align: center; 
+    width: 800px;
+    margin-bottom: 20px;
+}
+#header-paragraph{
+    font-size: 20px;
+    text-align: center;
+    width: 350px;
+    margin-bottom: 20px;
+}
+hr{
+    width: 50%;
+    margin: auto;
+}
+#article-header{
+    font-weight: 700;
+    font-size: 44px;
+    /* margin: 20px 730px; */
+    text-align: center;
+    margin: 20px 0;
+}
+.article-block{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px; 
+    gap: 50px;
+   margin: auto;
+   width: 800px;
+   /* border: solid red; */
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    /* width: 10px; */
+    text-align: center;
+    font-size: 28px;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.product{
+    display: flex;
+    gap: 10px;
+    font-size: 22px;
+    list-style: none;
+    text-transform: uppercase;
+    width: 1500px;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer-name{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+}
+.footer-info{
+    text-align: center;
+    width: 488px;
+    margin: auto;
+    font-size: 18px;
+}
+.footer-contact{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 50px auto;
+    width: 250px;
+    list-style: none;
+    text-decoration: underline;
+}
+.info{
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+/* for mobile phone */
+@media only screen and (max-width: 600px) {
+    #header-img{
+        width: 100%;
+    }
+    #header-words{
+        width: 100%;
+        font-size: 30px;
+    }
+    hr{
+        width: 100%;
+    } 
+    .header-paragraph{
+        width: 100%;
+    }
+    .article-block{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        gap: 30px; 
+        
+    }
+    .product{
+        width: 100%;
+        font-size: 15px;
+        font-weight: 100;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .footer-name{
+        font-weight: 300;
+        font-size: 30px;
+        padding-bottom: 40px;
+    }
+    .footer-info{
+        
+        width: 100%;
+        font-size: 15px;
+    }
+    .footer-contact{ 
+         margin: auto;
+         width: fit-content;
+         
+    }
+    .article-img{
+        width: 100%;
+    }
+} 
+
+/* @media only screen and (min-width: 600px) { */
+    /* #header-img{
+        width: 100%;
+    }
+    .product{
+        width: 100%;
+        font-size: 15px;
+        font-weight: 100;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .article-block{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+   } */
+  
+/* } */
