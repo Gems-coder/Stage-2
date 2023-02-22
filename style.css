@@ -113,7 +113,7 @@ footer{
     .article-block{
         display: grid;
         grid-template-columns: 1fr;
-        width: 100%;
+        width: 70%;
         gap: 30px; 
         
     }
@@ -144,21 +144,3 @@ footer{
     }
 } 
 
-/* @media only screen and (min-width: 600px) { */
-    /* #header-img{
-        width: 100%;
-    }
-    .product{
-        width: 100%;
-        font-size: 15px;
-        font-weight: 100;
-        flex-wrap: wrap;
-        display: flex;
-    }
-    .article-block{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-   } */
-  
-/* } */
